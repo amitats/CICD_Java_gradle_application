@@ -44,8 +44,7 @@ pipeline{
                     }
                 }
              
-        }
-        stage("pushing the helm charts to nexus"){
+           stage("pushing the helm charts to nexus"){
             steps{
                 script{
                     withCredentials([string(credentialsId: 'docker_pass', variable: 'docker_password')]) {
@@ -61,6 +60,9 @@ pipeline{
                }
             }
           }
+       }
+
+          
 
     
 
