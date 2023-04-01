@@ -1,0 +1,1 @@
+java -jar agent.jar -jnlpUrl https://jenkins-final-recovered-jomis-jmpp.apps.ocp451.dhms.io/manage/computer/windows1/jenkins-agent.jnlp -secret fd466d7a246693d2b9d9a059c731ec5fc5890e5183eb5acdc1163ca7a5e425d8 -workDir "C:\jenkins-agent"
